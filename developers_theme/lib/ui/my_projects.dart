@@ -133,7 +133,7 @@ class MyProjects extends StatelessWidget {
             children: [
               SizedBox(
                 height: MediaQuery.of(context).size.width * .75,
-                child: Image.asset(project.img),
+                child: Image.network(project.img),
               ),
               SizedBox(width: MediaQuery.of(context).size.width * .075),
               SizedBox(
