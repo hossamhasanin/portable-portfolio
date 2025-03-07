@@ -162,7 +162,7 @@ class _HomeState extends State<Home> {
                         ElevatedButton(
                           onPressed: _scrollToContactUs,
                           style: ElevatedButton.styleFrom(
-                            primary: AppColors.yellow,
+                            backgroundColor: AppColors.yellow,
                             padding: const EdgeInsets.symmetric(
                               horizontal: 40,
                               vertical: 15,
@@ -241,7 +241,7 @@ class _HomeState extends State<Home> {
                     title: ElevatedButton(
                       onPressed: _scrollToContactUs,
                       style: ElevatedButton.styleFrom(
-                        primary: AppColors.yellow,
+                        backgroundColor: AppColors.yellow,
                         padding: const EdgeInsets.symmetric(
                           horizontal: 40,
                           vertical: 15,

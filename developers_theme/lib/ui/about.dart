@@ -58,8 +58,8 @@ class About extends StatelessWidget {
                         ),
                         Text(
                           description,
-                          style: Theme.of(context).textTheme.bodyText2!.copyWith(
-                                color: Colors.black.withOpacity(.7),
+                          style: Theme.of(context).textTheme.bodyMedium!.copyWith(
+                                color: Colors.black.withValues(alpha:  0.7),
                                 fontSize: 17,
                               ),
                         ),
@@ -69,7 +69,7 @@ class About extends StatelessWidget {
                             ElevatedButton(
                               onPressed: () {},
                               style: ElevatedButton.styleFrom(
-                                primary: AppColors.yellow,
+                                backgroundColor: AppColors.yellow,
                                 padding: const EdgeInsets.symmetric(
                                     horizontal: 30, vertical: 20),
                               ),
@@ -83,7 +83,7 @@ class About extends StatelessWidget {
                                 launch(cvUrl);
                               },
                               style: ElevatedButton.styleFrom(
-                                primary: AppColors.black,
+                                backgroundColor: AppColors.black,
                                 padding: const EdgeInsets.symmetric(
                                     horizontal: 30, vertical: 20),
                               ),
@@ -144,8 +144,8 @@ class About extends StatelessWidget {
               ),
               Text(
                 description,
-                style: Theme.of(context).textTheme.bodyText2!.copyWith(
-                      color: Colors.black.withOpacity(.7),
+                style: Theme.of(context).textTheme.bodyMedium!.copyWith(
+                      color: Colors.black.withValues(alpha: .7),
                       fontSize: 13,
                     ),
                 textAlign: TextAlign.center,
@@ -154,7 +154,7 @@ class About extends StatelessWidget {
               ElevatedButton(
                 onPressed: () {},
                 style: ElevatedButton.styleFrom(
-                  primary: AppColors.yellow,
+                  backgroundColor: AppColors.yellow,
                   padding:
                   const EdgeInsets.symmetric(horizontal: 30, vertical: 20),
                 ),
@@ -168,7 +168,7 @@ class About extends StatelessWidget {
                   launch(cvUrl);
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: AppColors.black,
+                  backgroundColor: AppColors.black,
                   padding:
                   const EdgeInsets.symmetric(horizontal: 30, vertical: 20),
                 ),

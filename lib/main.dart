@@ -3,6 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:portable_portfolio/dependencies.dart';
+import 'package:portable_portfolio/firebase_options.dart';
 import 'package:theem_managing/pages/main_page/main_page.dart';
 import 'package:developers_theme/config/colors.dart';
 
@@ -13,11 +14,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   final Future<FirebaseApp> _initialization = Firebase.initializeApp(
-    options: const FirebaseOptions(
-        apiKey: "AIzaSyAjM_gLTFNXEH2DMIOxl2GkoCM-jyNiPck",
-        appId: "1:554361699506:web:cb35986ea614f25711ddab",
-        messagingSenderId: "554361699506",
-        projectId: "portable-portfolio"),
+    options: DefaultFirebaseOptions.currentPlatform,
   );
   MyApp({Key? key}) : super(key: key);
 

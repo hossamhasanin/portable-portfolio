@@ -99,7 +99,7 @@ class MyProjects extends StatelessWidget {
                             launch(project.url);
                           },
                           style: OutlinedButton.styleFrom(
-                            primary: AppColors.yellow,
+                            backgroundColor: AppColors.yellow,
                             padding: const EdgeInsets.symmetric(
                               horizontal: 50,
                               vertical: 20,
@@ -164,7 +164,7 @@ class MyProjects extends StatelessWidget {
                   launch(project.url);
                 },
                 style: OutlinedButton.styleFrom(
-                  primary: AppColors.yellow,
+                  backgroundColor: AppColors.yellow,
                   padding: const EdgeInsets.symmetric(
                     horizontal: 50,
                     vertical: 20,
