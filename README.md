@@ -3,8 +3,8 @@
 Portable Portfolio is a flutter project that enables you to have a portfolio in just a few clicks. It gives you the full control through an app dashboard to manage your displayed projects and information.
 
 ## Portfolio Website
-<img src="https://github.com/hossamhasanin/portable-portfolio/blob/master/images/web%201.png" width="40%" height="50%"/> <img src="https://github.com/hossamhasanin/portable-portfolio/blob/master/images/web%202.png" width="40%" height="50%"/>
+<img src="https://github.com/hossamhasanin/portable-portfolio/blob/master/images/web%201.png" width="40%" height="50%"/> <img src="https://github.com/hossamhasanin/portable-portfolio/blob/master/images/web%202.png" width="40%" height="50%"/> <img src="https://github.com/hossamhasanin/portable-portfolio/blob/master/images/web%203.png" width="40%" height="50%"/>
 
 ## Dashboard app
-
+<img src="https://github.com/hossamhasanin/portable-portfolio/blob/master/images/app%201.png" width="50%" height="70%"/> <img src="https://github.com/hossamhasanin/portable-portfolio/blob/master/images/app%202.png" width="50%" height="70%"/>
 
